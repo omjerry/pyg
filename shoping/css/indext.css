@@ -1,0 +1,452 @@
+.main {
+    margin-left: 210px;
+    padding: 10px 0 0 10px;
+    height: 465px;
+    width: 990px;
+    /* background-color: pink; */
+}
+
+.main .focus {
+    float: left;
+    /* margin-right: 10px; */
+    width: 720px;
+    height: 455px;
+    background-color: pink;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: pink; */
+}
+
+.main .newsflash .news {
+    height: 165px;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+    /* background-color: blue; */
+}
+
+.main .newsflash .news dd {
+    position: relative;
+    padding-left: 15px;
+    height: 32px;
+    line-height: 32px;
+    color: #cdcdcd;
+    font-size: 14px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.main .newsflash .news dd::after {
+    content: '更多 \e920';
+    font-family: icomoon;
+    position: absolute;
+    right: 15px;
+    color: #666666;
+}
+
+.main .newsflash .news dt {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main .newsflash .livservice {
+    border-left: 1px solid #cdcdcd;
+    height: 210px;
+    margin-bottom: 5px;
+}
+
+.main .newsflash .livservice ul li {
+    float: left;
+    text-align: center;
+    height: 70px;
+    width: 25%;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.main .newsflash .livservice ul li i {
+    display: inline-block;
+    margin-top: 13px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    background-position: -17px -15px;
+    width: 25px;
+    height: 28px;
+}
+
+.main .newsflash .livservice ul .spacle {
+    position: relative;
+}
+
+.main .newsflash .livservice ul .spacle img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.recom {
+    margin-top: 10px;
+    height: 163px;
+    /* background-color: pink; */
+}
+
+.recom .recom_hd {
+    float: left;
+    padding-top: 30px;
+    width: 206px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom .recom_hd p {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #eeeded;
+}
+
+.recom .recom_dd {
+    float: left;
+    padding: 10px 0;
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_dd ul li {
+    float: left;
+    height: 143px;
+    width: 25%;
+    border-right: 1px solid #dddddd;
+}
+
+.recom .recom_dd ul:last-child {
+    border: none;
+}
+
+.recom .recom_dd ul li div {
+    float: left;
+    margin-top: 10px;
+    height: 134px;
+}
+
+.recom .recom_dd ul li .wenzi {
+    margin-left: 30px;
+    width: 60px;
+    /* background-color: pink; */
+}
+
+.recom .recom_dd ul li .wenzi h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.recom .recom_dd ul li .wenzi h5 {
+    width: 65px;
+    height: 22px;
+    text-align: center;
+    background-color: #0085fb;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.recom .recom_dd ul li .wenzi h6 {
+    font-size: 12px;
+    color: #666666;
+}
+
+.recom .recom_dd ul li .wenzi p {
+    margin-top: 15px;
+    height: 20px;
+    width: 60px;
+    font-size: 14px;
+    background-color: #0085fb;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.like {
+    padding-top: 20px;
+    height: 292px;
+    /* background-color: pink; */
+}
+
+.like .you {
+    height: 38px;
+    line-height: 38px;
+}
+
+.like .you p {
+    float: left;
+    font-size: 18px;
+}
+
+.like .you i {
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.like .you i::after {
+    content: ' \ea2e';
+    font-family: icomoon;
+    font-size: 1px;
+}
+
+.like .fomation {
+    overflow: hidden;
+    width: 1200px;
+    height: 234px;
+    border: 1px solid #ededed;
+}
+
+.like .fomation ul {
+    width: 1202px;
+}
+
+.like .fomation ul li {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.like .fomation ul li i {
+    display: inline-block;
+    height: 150px;
+}
+
+.like .fomation ul li div {
+    height: 62px;
+    border-right: 1px solid #ededed;
+}
+
+.like .fomation ul li p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.like .fomation ul li span {
+    font-size: 18px;
+    color: #df3033;
+}
+
+.floor .jiadian .box_hd {
+    margin-top: 30px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #cc353e;
+}
+
+.floor .jiadian .box_hd .tab_list {
+    float: right;
+
+}
+
+.floor .jiadian .box_hd .tab_list li {
+    float: left;
+}
+
+.floor .jiadian .box_hd .tab_list li a {
+    padding: 0 10px;
+}
+
+.floor .jiadian .box_bd {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.floor .jiadian .box_bd .box1 {
+    float: left;
+    padding-left: 14px;
+    padding-top: 10px;
+    background-color: #f9f9f9;
+    width: 210px;
+    height: 360px;
+}
+
+.floor .jiadian .box_bd .box1 ul {
+    margin-bottom: 15px;
+}
+
+.floor .jiadian .box_bd .box1 li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 33px;
+    width: 86px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .box2 {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 330px;
+    height: 360px;
+}
+
+.floor .jiadian .box_bd .box2 .white {
+    position: absolute;
+    bottom: 15px;
+    left: 140px;
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.floor .jiadian .box_bd .box2 .black_1 {
+    position: absolute;
+    bottom: 15px;
+    left: 157px;
+    background-color: #3e3e3e;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.floor .jiadian .box_bd .box2 .black_2 {
+    position: absolute;
+    bottom: 15px;
+    left: 174px;
+    background-color: #3e3e3e;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.floor .jiadian .box_bd .box3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+}
+
+.floor .jiadian .box_bd .box3 .box_1 {
+    overflow: hidden;
+    display: block;
+    height: 180px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .box3 .box_2 {
+    overflow: hidden;
+    display: block;
+    height: 180px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .box4 {
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    width: 220px;
+    height: 360px;
+}
+
+.floor .jiadian .box_bd .box5 {
+    float: left;
+    width: 220px;
+    height: 360px;
+}
+
+.floor .jiadian .box_bd .box5 .box_1 {
+    overflow: hidden;
+    display: block;
+    height: 180px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .box5 .box_2 {
+    overflow: hidden;
+    display: block;
+    height: 180px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_footer {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.hot {
+    margin-top: 30px;
+    height: 350px;
+}
+
+.hot .box_hd {
+    height: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.hot .box_bd {
+    height: 290px;
+    /* border: 1px solid #ededed; */
+}
+
+.hot .box_bd .box_1 {
+    float: left;
+    overflow: hidden;
+    width: 240px;
+    height: 290px;
+    border: 1px solid #ededed;
+}
+
+.hot .box_bd .box_2 {
+    float: left;
+    overflow: hidden;
+    width: 220px;
+    height: 290px;
+    border-top: 1px solid #ededed;
+}
+
+.hot .box_bd .tupian_1 {
+    overflow: hidden;
+    height: 50%;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.hot .box_bd .box_3 {
+    float: left;
+    width: 220px;
+    border-top: 1px solid #ededed;
+    height: 290px;
+}
+
+.hot .box_bd .box_4 {
+    float: left;
+    width: 220px;
+    border-top: 1px solid #ededed;
+    height: 290px;
+}
+
+.hot .box_bd .box_5 {
+    float: left;
+    width: 300px;
+    height: 290px;
+}
